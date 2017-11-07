@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json.Standalone", "Newtonsoft.Json\Newtonsoft.Json.Standalone.csproj", "{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json.Windows", "Newtonsoft.Json\Newtonsoft.Json.Windows.csproj", "{AFD7C1F3-075C-407F-95CE-EB12C6CC4884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json.AOT", "Newtonsoft.Json\Newtonsoft.Json.AOT.csproj", "{495BAA54-87D4-4EB8-99A5-8988D821B484}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linkxml", "Linkxml", "{E68A6E98-DFC1-4EE4-8B81-6E07922F250E}"
+	ProjectSection(SolutionItems) = preProject
+		LinkXML\link.xml = LinkXML\link.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD7C1F3-075C-407F-95CE-EB12C6CC4884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD7C1F3-075C-407F-95CE-EB12C6CC4884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD7C1F3-075C-407F-95CE-EB12C6CC4884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD7C1F3-075C-407F-95CE-EB12C6CC4884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495BAA54-87D4-4EB8-99A5-8988D821B484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495BAA54-87D4-4EB8-99A5-8988D821B484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495BAA54-87D4-4EB8-99A5-8988D821B484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495BAA54-87D4-4EB8-99A5-8988D821B484}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dustinhorne.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Newtonsoft.Json\\Newtonsoft.Json.Standalone.csproj
+		SccProjectName1 = Newtonsoft.Json
+		SccLocalPath1 = Newtonsoft.Json
+		SccProjectUniqueName2 = Newtonsoft.Json\\Newtonsoft.Json.AOT.csproj
+		SccProjectName2 = Newtonsoft.Json
+		SccLocalPath2 = Newtonsoft.Json
+		SccProjectUniqueName3 = Newtonsoft.Json\\Newtonsoft.Json.Windows.csproj
+		SccProjectName3 = Newtonsoft.Json
+		SccLocalPath3 = Newtonsoft.Json
+	EndGlobalSection
+EndGlobal
